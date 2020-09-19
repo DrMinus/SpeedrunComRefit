@@ -8,7 +8,7 @@ namespace SpeedrunComOrg.Api.Client.Models
     public string Id { get; set; }
     public string Name { get; set; }
     public string Weblink { get; set; }
-    public CategoryType Type { get; set; }
+    public string Type { get; set; }
     public string Rules { get; set; }
     public Players Players { get; set; }
     public bool Miscellaneous { get; set; }
